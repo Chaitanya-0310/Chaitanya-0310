@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=3B82F6&center=true&vCenter=true&width=750&lines=Hey,+I'm+Chaitanya+Panchal!;AI+%26+Data+Engineer;Building+Agentic+AI+Systems;RAG+%7C+Pipelines+%7C+Cloud" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=3B82F6&center=true&vCenter=true&width=750&lines=Hey,+I'm+Chaitanya+Panchal!;AI+%26+Data+Engineer;Building+Data Platforms+AI+Systems;Analytics+%7C+Pipelines+%7C+Cloud" />
 </div>
 
 
