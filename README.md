@@ -146,8 +146,8 @@ flowchart LR
 | **Automation** | n8n · Zapier · Make · LangFlow |
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,fastapi,postgres,redis,docker,kubernetes,aws,azure,terraform,githubactions&theme=dark&perline=10">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,redis,docker,kubernetes,aws,azure,terraform,githubactions&theme=light&perline=10" alt="Python, FastAPI, PostgreSQL, Redis, Docker, Kubernetes, AWS, Azure, Terraform, GitHub Actions">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cfastapi%2Cpostgres%2Credis%2Cdocker%2Ckubernetes%2Caws%2Cazure%2Cterraform%2Cgithubactions&theme=dark&perline=10">
+  <img src="https://skillicons.dev/icons?i=py%2Cfastapi%2Cpostgres%2Credis%2Cdocker%2Ckubernetes%2Caws%2Cazure%2Cterraform%2Cgithubactions&theme=light&perline=10" alt="Python, FastAPI, PostgreSQL, Redis, Docker, Kubernetes, AWS, Azure, Terraform, GitHub Actions">
 </picture>
 
 ## ◆ Background
