@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Chaitanya Panchal, AI Engineer, building RAG systems and agentic workflows">
+<style>
+  .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #9098A9; }
+  .small { font-size: 13px; letter-spacing: .02em; }
+  .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: 66px 62px; }
+  .halo { animation: halo 3s ease-in-out infinite; transform-origin: 935px 178px; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+  @keyframes halo { 0%,100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.35); opacity: .25; } }
+  @media (prefers-reduced-motion: reduce) { .pulse, .halo { animation: none; } }
+</style>
+<defs>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#232733"/>
+  </pattern>
+</defs>
+<rect x="0.5" y="0.5" width="1199" height="359" rx="18" fill="#0D0F14" stroke="#232733"/>
+<rect x="760" y="1" width="439" height="358" fill="url(#dots)" opacity=".9"/>
+
+<circle class="pulse" cx="66" cy="62" r="5" fill="#FF7A45"/>
+<text x="82" y="67" class="mono small">open to AI engineering roles · toronto, on</text>
+
+<text x="56" y="158" class="sans" font-size="66" font-weight="700" letter-spacing="-1.5" fill="#ECEEF2">Chaitanya Panchal</text>
+<text x="58" y="208" class="sans" font-size="26" font-weight="600" fill="#FF7A45">AI Engineer<tspan fill="#ECEEF2" font-weight="400"> — RAG systems, agents, and the data under them.</tspan></text>
+<text x="58" y="246" class="sans" font-size="18" fill="#9098A9">I build LLM applications that cite their sources, pass their evals, and keep a human in the loop.</text>
+
+<line x1="58" y1="290" x2="700" y2="290" stroke="#232733"/>
+<text x="58" y="320" class="mono small">LangGraph · MCP · hybrid retrieval · RAGAS evals · guardrails · FastAPI · PySpark</text>
+
+<line x1="935" y1="178" x2="935.0" y2="70.0" stroke="#2A2F3B" stroke-width="1.5"/><line x1="935.0" y1="70.0" x2="1037.7" y2="144.6" stroke="#232733" stroke-width="1" stroke-dasharray="3 5"/><line x1="935" y1="178" x2="1037.7" y2="144.6" stroke="#2A2F3B" stroke-width="1.5"/><line x1="1037.7" y1="144.6" x2="998.5" y2="265.4" stroke="#232733" stroke-width="1" stroke-dasharray="3 5"/><line x1="935" y1="178" x2="998.5" y2="265.4" stroke="#2A2F3B" stroke-width="1.5"/><line x1="998.5" y1="265.4" x2="871.5" y2="265.4" stroke="#232733" stroke-width="1" stroke-dasharray="3 5"/><line x1="935" y1="178" x2="871.5" y2="265.4" stroke="#2A2F3B" stroke-width="1.5"/><line x1="871.5" y1="265.4" x2="832.3" y2="144.6" stroke="#232733" stroke-width="1" stroke-dasharray="3 5"/><line x1="935" y1="178" x2="832.3" y2="144.6" stroke="#2A2F3B" stroke-width="1.5"/><line x1="832.3" y1="144.6" x2="935.0" y2="70.0" stroke="#232733" stroke-width="1" stroke-dasharray="3 5"/>
+<circle r="3" fill="#FF7A45"><animateMotion dur="2.40s" repeatCount="indefinite" path="M935,178 L935.0,70.0"/></circle><circle r="3" fill="#FF7A45"><animateMotion dur="2.75s" repeatCount="indefinite" path="M935,178 L1037.7,144.6"/></circle><circle r="3" fill="#FF7A45"><animateMotion dur="3.10s" repeatCount="indefinite" path="M935,178 L998.5,265.4"/></circle><circle r="3" fill="#FF7A45"><animateMotion dur="3.45s" repeatCount="indefinite" path="M935,178 L871.5,265.4"/></circle><circle r="3" fill="#FF7A45"><animateMotion dur="3.80s" repeatCount="indefinite" path="M935,178 L832.3,144.6"/></circle>
+<circle class="halo" cx="935" cy="178" r="22" fill="#FF7A4522"/>
+<circle cx="935" cy="178" r="11" fill="#FF7A45"/>
+<circle cx="935.0" cy="70.0" r="7" fill="#0D0F14" stroke="#9098A9" stroke-width="1.5"/><text x="935.0" y="54.0" text-anchor="middle" class="mono small">retrieve</text><circle cx="1037.7" cy="144.6" r="7" fill="#0D0F14" stroke="#9098A9" stroke-width="1.5"/><text x="1053.7" y="149.6" text-anchor="start" class="mono small">rerank</text><circle cx="998.5" cy="265.4" r="7" fill="#0D0F14" stroke="#9098A9" stroke-width="1.5"/><text x="1014.5" y="289.4" text-anchor="start" class="mono small">guard</text><circle cx="871.5" cy="265.4" r="7" fill="#0D0F14" stroke="#9098A9" stroke-width="1.5"/><text x="855.5" y="289.4" text-anchor="end" class="mono small">reason</text><circle cx="832.3" cy="144.6" r="7" fill="#0D0F14" stroke="#9098A9" stroke-width="1.5"/><text x="816.3" y="149.6" text-anchor="end" class="mono small">verify</text>
+<text x="935" y="218" text-anchor="middle" class="mono small">coordinator</text>
+</svg>
