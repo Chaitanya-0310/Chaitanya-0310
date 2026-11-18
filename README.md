@@ -1,120 +1,166 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,55:6d28d9,100:06b6d4&height=230&section=header&text=CH%20%7C%20DATA%20%2B%20AI&fontColor=ffffff&fontSize=42&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20%E2%80%A2%20AI%20Builder%20%E2%80%A2%20Always%20Shipping&descAlignY=60" alt="Chaitanya Panchal — Data and AI" />
-  <br />
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1200&color=22D3EE&center=true&vCenter=true&width=760&lines=Engineering+reliable+data+platforms.;Building+governed+analytics+and+AI+systems.;Turning+complex+data+into+decisions." alt="Animated introduction" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <img src="./assets/banner-light.svg" width="100%" alt="Chaitanya Panchal — AI Engineer. RAG systems, agents, and the data under them.">
+</picture>
 
-<div align="center">
+<p>
+  <a href="mailto:panchalchait03@gmail.com"><b>Email</b></a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/chaitanyap310"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="https://chaitanya-0310.github.io/"><b>Blog</b></a> &nbsp;·&nbsp;
+  <a href="#-selected-work"><b>Work</b></a> &nbsp;·&nbsp;
+  <a href="#-experience"><b>Experience</b></a>
+</p>
 
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:panchalchait03@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/chaitanyap310)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Chaitanya-0310)
+I'm an AI engineer who started as a data engineer, and it shows in how I build: retrieval is a data problem, agents need typed contracts, and nothing ships without an eval that can fail. Most recently I built a production RAG platform for legal research at **Kraftbase**. Before that, I built AWS pipelines on the same team.
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/impact-dark.svg">
+  <img src="./assets/impact-light.svg" width="100%" alt="Production impact: about 85% faster legal research; RAGAS context precision 0.62 → 0.94; answer faithfulness 0.78 → 0.95; under 1.2% false refusals.">
+</picture>
 
-## Player profile
+<br>
 
-```text
-┌─────────────────────────────────────────────────────────────┐
-│  CHAITANYA PANCHAL  ·  DATA ENGINEER & AI BUILDER           │
-│  2+ years building cloud data platforms and ETL/ELT systems │
-│  Toronto, ON  ·  Available for Data Engineering opportunities│
-└─────────────────────────────────────────────────────────────┘
+## ◆ Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [PROOF](https://github.com/Chaitanya-0310/PROOF)
+**Agentic operations copilot for manufacturing.** When a bakery line goes down, it finds the customer orders at risk and the dough that will expire, then drafts the fix for a human to approve.
+
+`recall@5 75.0% → 87.5%` &nbsp; `MRR 0.460 → 0.658`
+
+<sub>Coordinator + 5 sub-agents · 29 tools on 5 MCP servers · Python · FastAPI · pgvector · Claude API</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### [TrustForge](https://github.com/Chaitanya-0310/TrustForge)
+**Security questionnaires, answered from evidence.** Every claim is bound to a quoted span in a real document, an independent verifier tries to break it, and it abstains rather than guess.
+
+`phases P0–P1 of 5 done` &nbsp; `30 offline tests`
+
+<sub>Multi-agent · triage → retrieve → draft → verify · cost ledger · Python</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Multi-Agent Marketing Orchestrator](https://github.com/Chaitanya-0310/Multi_Model_AI_Agent)
+**A two-week, five-person campaign workflow in about 20 minutes.** Agents plan, draft, and review against brand and compliance rules, and a human approves at each gate.
+
+`14-node StateGraph` &nbsp; `4 HITL interrupts`
+
+<sub>LangGraph · ChromaDB RAG · Langfuse tracing · Guardrails AI · Streamlit</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### [Yukon Population Health Analytics](https://github.com/Chaitanya-0310/Yukon_Data_Analytics)
+**Federal health data → a public-health dashboard.** Data from CIHI, PHAC, and StatCan, with outbreak detection and Holt-Winters forecasts. [Live demo ↗](https://yukon-health-dataanalytics.streamlit.app/)
+
+`17 dbt models` &nbsp; `78 tests` &nbsp; `53+ KPIs`
+
+<sub>dbt · PostgreSQL/Supabase · Streamlit · Plotly · statsmodels</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [AWS Data Engineering Platform](https://github.com/Chaitanya-0310/AWS-Data-Architecture)
+**A full event-driven AWS lakehouse that runs locally.** Ingestion, a Bronze/Silver/Gold medallion on S3, Step Functions, and observability, all on an emulator, with no AWS account needed.
+
+`one-command start` &nbsp; `infra as code`
+
+<sub>AWS CDK · Kinesis · Lambda · Airflow · DynamoDB · Docker</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### [Retail Demand Forecasting](https://github.com/Chaitanya-0310/retail-demand-forecasting)
+**How much will we sell, and what does a promo do to margin?** SKU × region forecasts, price elasticity, and a promo what-if simulator, all validated against a known ground truth.
+
+`SARIMAX` &nbsp; `log-log OLS + XGBoost/SHAP`
+
+<sub>Python · statsmodels · XGBoost · Streamlit</sub>
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>In the lab</b>: early-stage builds</summary>
+<br>
+
+| Project | What it is |
+| --- | --- |
+| [FinSentry](https://github.com/Chaitanya-0310/FinSentry) | Synthetic-data financial-crime MVP: replayed transactions, quarantine, explainable AML rules, auditable cases. Kafka · PostgreSQL · NetworkX |
+| [AtlasIQ](https://github.com/Chaitanya-0310/AtlasIQ) | Evidence-grounded document intelligence for Canadian public-health reports. FastAPI · MinIO · n8n |
+| [StockRAG](https://github.com/Chaitanya-0310/StockRAG-AI-Assistant) | RAG financial assistant with LSTM / Prophet / XGBoost forecasts and an idempotent ETL. pgvector · FastAPI |
+| [taskmaster-api](https://github.com/Chaitanya-0310/taskmaster-api) | FastAPI service shipped with Docker, Kubernetes manifests, and GitHub Actions CI. |
+
+</details>
+
+## ◆ How I build a RAG system
+
+The retrieval and safety path behind the production numbers above.
+
+```mermaid
+flowchart LR
+    Q([Question]) --> G1{{Input guardrails<br/>PII · Llama Guard · injection}}
+    G1 --> H[Hybrid retrieval<br/>dense + BM25]
+    H --> R[Cross-encoder<br/>rerank]
+    R --> P[Parent-section<br/>expansion]
+    P --> L[LLM with<br/>typed output schema]
+    L --> C{Citations<br/>verified?}
+    C -- yes --> A([Answer + sources])
+    C -- no --> L
+    E[(Labeled eval set<br/>RAGAS)] -. gates every change .-> H
+    E -.-> L
+    classDef accent stroke:#E8622C,stroke-width:2px;
+    class G1,C accent
 ```
 
-I build governed, observable data products across Azure and AWS—using Python, PySpark, SQL, Airflow, dbt, and dimensional modeling. I also enjoy applying LLM orchestration and RAG where they create practical automation.
+## ◆ Experience
 
-## Career HUD
+**AI Engineer** · Kraftbase &nbsp;<sub>Sep 2025 – Apr 2026 · Remote</sub>
+<br>End-to-end legal-research RAG platform (LangChain, GPT-4o, Milvus, PostgreSQL) with cited answers. Parent-child hybrid retrieval and reranking, version-aware clause mapping for multi-year amendments, PII and prompt-injection guardrails under 45 ms added P90, Pydantic structured outputs, and context pruning that cut tokens 42%.
 
-<div align="center">
+**Data Engineer** · Kraftbase &nbsp;<sub>Jan 2023 – Dec 2023 · Vadodara</sub>
+<br>Event-driven Lambda validation that cut manual data intervention 50%. Metadata-driven Airflow (MWAA) DAGs shipped through GitHub Actions. Kimball redesign with partitioned Parquet: Redshift 35% faster and 60% cheaper. Idempotent SCD2 across 4+ sources.
 
-| 🚀 Manual intervention | ⚡ Redshift performance | 💸 Processing cost |
-| :---: | :---: | :---: |
-| [![50%](https://img.shields.io/badge/-50%25-8b5cf6?style=for-the-badge&labelColor=111827)](#experience) | [![35%](https://img.shields.io/badge/-35%25-06b6d4?style=for-the-badge&labelColor=111827)](#experience) | [![60%](https://img.shields.io/badge/-60%25-f59e0b?style=for-the-badge&labelColor=111827)](#experience) |
-| less manual cleanup | faster queries | reduced cost |
+**Data Analyst Intern** · Kintu Designs &nbsp;<sub>Jun 2022 – Dec 2022 · Gujarat</sub>
+<br>Reverse-engineered legacy datasets to find recurring quality issues. Built Power BI KPI dashboards for operations managers.
 
-| 🗂️ Gold tables | 🔗 Source systems | 🛡️ Data anomalies |
-| :---: | :---: | :---: |
-| [![12](https://img.shields.io/badge/-12-22c55e?style=for-the-badge&labelColor=111827)](#experience) | [![4+](https://img.shields.io/badge/-4%2B-ec4899?style=for-the-badge&labelColor=111827)](#experience) | [![25+](https://img.shields.io/badge/-25%2B-3b82f6?style=for-the-badge&labelColor=111827)](#experience) |
-| curated datasets | history-preserving pipelines | investigated before release |
+## ◆ Toolbox
 
-</div>
+| | |
+| --- | --- |
+| **AI & LLM** | LangGraph · LangChain · MCP · RAG · RAGAS evals · Milvus · pgvector · ChromaDB · Guardrails AI · Llama Guard · Langfuse |
+| **Application** | Python · FastAPI · Pydantic · pytest · SQL · Bash |
+| **Data** | PySpark · Glue · dbt · Airflow · Redshift · Databricks · Kimball modeling · SCD2 · medallion |
+| **Platform** | AWS · Azure · Docker · Kubernetes · Terraform · GitHub Actions |
+| **Automation** | n8n · Zapier · Make · LangFlow |
 
-## Skill loadout
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,fastapi,postgres,redis,docker,kubernetes,aws,azure,terraform,githubactions&theme=dark&perline=10">
+  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,redis,docker,kubernetes,aws,azure,terraform,githubactions&theme=light&perline=10" alt="Python, FastAPI, PostgreSQL, Redis, Docker, Kubernetes, AWS, Azure, Terraform, GitHub Actions">
+</picture>
 
-<div align="center">
+## ◆ Background
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+**M.A.C., Applied Computing**, University of Windsor · 2025 &nbsp;&nbsp;|&nbsp;&nbsp; **B.Tech, Computer Science & Engineering**, CHARUSAT · 2023
 
-</div>
+<sub>Certifications: dbt Fundamentals · Databricks Lakehouse Fundamentals · Databricks Generative AI Fundamentals · Snowflake Hands-on Essentials: Data Warehousing · Apache Airflow Fundamentals · Microsoft Fabric End-to-End Analytics</sub>
 
-## Latest release — Yukon Population Health Analytics
+<br>
 
-[![Repository](https://img.shields.io/badge/View_project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Chaitanya-0310/Yukon_Data_Analytics)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chaitanya-0310/Chaitanya-0310/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/Chaitanya-0310/Chaitanya-0310/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution graph being eaten by a snake">
+</picture>
 
-An end-to-end health analytics platform that transforms open federal health data into an interactive Streamlit dashboard for Yukon public-health insights.
-
-- **17 dbt models** · **78 automated tests** · **53+ derived KPIs**
-- 7 analytical views, including provincial comparisons, outbreak detection, and time-series forecasting.
-- PostgreSQL/Supabase, dbt, Python, Streamlit, Plotly, ETS/Holt-Winters forecasting.
-
-## Now building
-
-| Status | Project | Mission |
-| --- | --- | --- |
-| `IN PROGRESS` | [AWS Data Engineering Platform](https://github.com/Chaitanya-0310/AWS-Data-Architecture) | A local-first, event-driven AWS platform with a Bronze/Silver/Gold lakehouse, CDK infrastructure, Airflow orchestration, Lambda ETL, and observability—built with no AWS account required. Foundation phase is complete. |
-| `ACTIVE BUILD` | Taskmaster Microservice Architecture | A FastAPI and PostgreSQL task platform delivered with Docker, Kubernetes, Helm, and GitHub Actions CI/CD. |
-| `ITERATING` | [StockRAG](https://github.com/Chaitanya-0310/StockRAG-AI-Assistant) | Financial intelligence assistant combining a RAG pipeline, ETL workflows, pgvector, FastAPI, and model-driven forecasting. |
-
-## Selected projects
-
-| Project | What I built | Stack |
-| --- | --- | --- |
-| [Multi-Agent Marketing Orchestrator](https://github.com/Chaitanya-0310/Multi_Model_AI_Agent) | Agent team that plans, writes, and reviews campaigns—compressing a two-week workflow to about 20 minutes. | Python · LangGraph · LangFuse · Guardrails AI · Streamlit |
-| [Yukon Population Health Analytics](https://github.com/Chaitanya-0310/Yukon_Data_Analytics) | Governed health analytics with testable dbt transformations, public-health metrics, dashboards, and forecasts. | dbt · PostgreSQL · Streamlit · Plotly |
-| [AWS Data Engineering Platform](https://github.com/Chaitanya-0310/AWS-Data-Architecture) | Local AWS-emulated data platform with medallion architecture and infrastructure as code. | AWS CDK · Docker · Airflow · Lambda |
-
-## Experience
-
-**Data Engineer · Kraftbase · Remote · Sep 2025 – Apr 2026**
-
-- Integrated **4** SQL Server and REST API sources through parameterized Azure Data Factory pipelines into ADLS Gen2.
-- Built PySpark and SQL ETL/ELT through Bronze, Silver, and Gold layers, publishing **12** governed Gold tables for self-service analytics.
-- Applied AQE and partition tuning after SparkUI and executor-log analysis; added schema checks, reconciliation, deduplication, and SCD Type 2 history.
-
-**Data Engineer · Kraftbase · Vadodara, India · Jan 2023 – Dec 2023**
-
-- Built an event-driven Lambda validation layer that reduced manual data intervention by **50%**.
-- Delivered metadata-driven Airflow DAGs on MWAA with parameterized task groups, standardized retries, and GitHub Actions CI/CD.
-- Improved Redshift query performance by **35%** and cut processing cost by **60%** through Kimball modeling and partitioned Parquet pipelines.
-- Root-caused **25+** critical anomalies using CloudWatch and SQL audit scripts.
-
-## Credentials
-
-`dbt Fundamentals` · `Databricks Lakehouse Fundamentals` · `Databricks Generative AI Fundamentals` · `Snowflake Hands-on Essentials: Data Warehousing` · `Apache Airflow Fundamentals` · `Microsoft Fabric End-to-End Analytics Badge`
-
-## GitHub activity
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Chaitanya-0310&show_icons=true&hide_border=true&count_private=true&theme=transparent&title_color=22d3ee&icon_color=a78bfa&text_color=cbd5e1" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=Chaitanya-0310&hide_border=true&background=00000000&ring=22d3ee&fire=a78bfa&currStreakLabel=cbd5e1&sideLabels=cbd5e1&dates=94a3b8" alt="Contribution streak" />
-  <br />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chaitanya-0310&bg_color=0d1117&color=cbd5e1&line=22d3ee&point=a78bfa&area=true&hide_border=true" alt="Contribution activity graph" />
-  <br />
-  <img src="https://raw.githubusercontent.com/Chaitanya-0310/Chaitanya-0310/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" />
-</div>
-
-<div align="center">
-  <sub>If a data or AI problem is worth solving, I’m interested in building it.</sub>
-</div>
+<sub>Writing about what I learn while building at <a href="https://chaitanya-0310.github.io/">chaitanya-0310.github.io</a>.</sub>
