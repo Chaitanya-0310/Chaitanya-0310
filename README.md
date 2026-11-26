@@ -126,7 +126,7 @@ flowchart LR
 
 ## ◆ Experience
 
-**AI Engineer** · Kraftbase &nbsp;<sub>Sep 2025 – Apr 2026 · Remote</sub>
+**AI/Data Engineer** · Freelance &nbsp;<sub>Apr 2025 – current · Remote</sub>
 <br>End-to-end legal-research RAG platform (LangChain, GPT-4o, Milvus, PostgreSQL) with cited answers. Parent-child hybrid retrieval and reranking, version-aware clause mapping for multi-year amendments, PII and prompt-injection guardrails under 45 ms added P90, Pydantic structured outputs, and context pruning that cut tokens 42%.
 
 **Data Engineer** · Kraftbase &nbsp;<sub>Jan 2023 – Dec 2023 · Vadodara</sub>
